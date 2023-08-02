@@ -1,4 +1,9 @@
 import streamlit as st
+# Désactiver tous les avertissements de Streamlit
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
+# Votre code Streamlit continue ci-dessous...
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
