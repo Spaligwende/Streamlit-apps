@@ -31,8 +31,8 @@ st.sidebar.write("Course Description: This is a business intelligence course whe
 st.sidebar.write("Professor: Mr. Mano MATHEW")
 
 # Load logos
-logo1 = Image.open(r"C:\Users\Simpo\streamlitProject\Efrei.png")
-logo2 = Image.open(r"C:\Users\Simpo\streamlitProject\PSB.png")
+logo1 = Image.open(r"Efrei.png")
+logo2 = Image.open(r"PSB.png")
 
 # Display logos
 st.sidebar.image(logo1, use_column_width=True)
